@@ -42,6 +42,33 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
+        System.out.println("Exercise 6");
+        var firsrBoxerWeight = 78.2;
+        System.out.println("Вес первого боксера " + firsrBoxerWeight + " кг");
+        var secondBoxerWeight = 82.7;
+        System.out.println("Вес второго боксера " + secondBoxerWeight + " кг");
+        var weightTweBoxer = firsrBoxerWeight + secondBoxerWeight;
+        System.out.println("Вес двух боксеров " + weightTweBoxer + "кг");
+        var differenceWeightTweBoxer = secondBoxerWeight - firsrBoxerWeight;
+        System.out.println("Разнеца в весе между двумяя боксерами " + differenceWeightTweBoxer + " кг");
+
+        System.out.println("Exercise 7");
+        differenceWeightTweBoxer = secondBoxerWeight - firsrBoxerWeight;
+        System.out.println("Разнеца в весе между двумяя боксерами " + differenceWeightTweBoxer + " кг");
+        //Вычитание большего веса из меньшего//
+        differenceWeightTweBoxer = secondBoxerWeight % firsrBoxerWeight;
+        System.out.println("Разнеца в весе между двумяя боксерами " + differenceWeightTweBoxer + " кг");
+        //Использование функции остаток от деления//
+
+        System.out.println("Exercise 8");
+        var workTimeOneDay = 640;
+        System.out.println("Количество нормачасов на один рабочий день компании составляет " + workTimeOneDay);
+        var workTimeOneWorker = 8;
+        var quentityWorker = workTimeOneDay / workTimeOneWorker;
+        System.out.println("Штат компании " + quentityWorker + " человек, при длительности рабочего дня " + workTimeOneWorker + " часов");
+        quentityWorker = quentityWorker + 94;
+        workTimeOneDay = quentityWorker * workTimeOneWorker;
+        System.out.println("При увеличении штата сотрудников компании до " + quentityWorker + " человек, количество нормочасов на один рабочий день будет составлять " + workTimeOneDay);
 
     }
 }
