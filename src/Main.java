@@ -68,7 +68,7 @@ public class Main {
         System.out.println("Штат компании " + quentityWorker + " человек, при длительности рабочего дня " + workTimeOneWorker + " часов");
         quentityWorker = quentityWorker + 94;
         workTimeOneDay = quentityWorker * workTimeOneWorker;
-        System.out.println("При увеличении штата сотрудников компании на 94 человека, количество нормочасов на один рабочий день должен составлять " + workTimeOneDay);
+        System.out.println("При увеличении штата сотрудников компании до " + quentityWorker + " человек, количество нормочасов на один рабочий день будет составлять " + workTimeOneDay);
 
     }
 }
