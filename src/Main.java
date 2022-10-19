@@ -24,5 +24,24 @@ public class Main {
         paper = paper - 7639;
         System.out.println(paper);
 
+        System.out.println("Exercise 4");
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
+        System.out.println("Exercise 5");
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
+
     }
 }
